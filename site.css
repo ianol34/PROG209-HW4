@@ -1,0 +1,22 @@
+ body {
+    margin: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+#your-img {
+    height: 50%; 
+    width: 50%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
